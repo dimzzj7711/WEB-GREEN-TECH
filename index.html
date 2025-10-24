@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Tech: Teknologi Ramah Lingkungan</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8f5;
+      color: #053b28;
+      line-height: 1.6;
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      background: linear-gradient(90deg, #0b7d45, #0f9d58);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .logo {
+      color: white;
+      font-weight: bold;
+      font-size: 1.2em;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      padding: 8px 14px;
+      border-radius: 20px;
+    }
+
+    .nav-links a:hover {
+      background: white;
+      color: #0b7d45;
+      transform: scale(1.05);
+    }
+
+    /* ===== HEADER TANPA FOTO ===== */
+    header {
+      text-align: center;
+      background: linear-gradient(90deg, #0b7d45, #0f9d58);
+      color: white;
+      padding: 70px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+
+    /* ===== SECTION ===== */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      color: #0b7d45;
+      margin-bottom: 12px;
+      border-left: 6px solid #0f9d58;
+      padding-left: 10px;
+    }
+    section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background-color: #0f9d58;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 0.9em;
+      letter-spacing: 0.5px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 20px;
+      }
+      .nav-links {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 8px;
+      }
+      .logo {
+        margin-bottom: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <div class="logo">🌿 Green Tech</div>
+    <div class="nav-links">
+      <a href="#pendahuluan">Pendahuluan</a>
+      <a href="#pengertian">Pengertian</a>
+      <a href="#contoh">Contoh</a>
+      <a href="#manfaat">Manfaat</a>
+      <a href="#penutup">Penutup</a>
+    </div>
+  </nav>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>Green Tech: Teknologi Ramah Lingkungan</h1>
+    <p>Menuju Masa Depan yang Bersih dan Berkelanjutan</p>
+  </header>
+
+  <!-- ===== KONTEN ===== -->
+  <section id="pendahuluan">
+    <h2>Pendahuluan</h2>
+    <p>Teknologi telah membawa kemajuan luar biasa bagi kehidupan manusia. Namun, penggunaan teknologi yang tidak bijak dapat berdampak buruk terhadap lingkungan, seperti pencemaran dan perubahan iklim. Karena itu, kita perlu mengembangkan dan menerapkan teknologi yang ramah lingkungan atau <strong>Green Tech</strong>.</p>
+    <img src="img/solar.jpg" alt="Panel surya di bawah sinar matahari">
+  </section>
+
+  <section id="pengertian">
+    <h2>Pengertian Green Tech</h2>
+    <p><strong>Green Technology</strong> atau teknologi ramah lingkungan adalah penerapan ilmu pengetahuan dan teknologi untuk mengurangi dampak negatif terhadap lingkungan. Tujuannya adalah menciptakan keseimbangan antara kemajuan teknologi dan kelestarian alam.</p>
+    <img src="img/wind.jpg" alt="Turbin angin di padang rumput">
+  </section>
+
+  <section id="contoh">
+    <h2>Contoh Penerapan Green Tech</h2>
+    <ul>
+      <li><strong>Energi Terbarukan</strong> — seperti tenaga surya, air, dan angin.</li>
+      <li><strong>Kendaraan Listrik</strong> — mengurangi polusi udara dari bahan bakar fosil.</li>
+      <li><strong>Teknologi Daur Ulang</strong> — mengolah kembali sampah menjadi barang bermanfaat.</li>
+    </ul>
+    <img src="img/recycle.jpg" alt="Teknologi daur ulang">
+  </section>
+
+  <section id="manfaat">
+    <h2>Manfaat Green Tech</h2>
+    <p>Penerapan teknologi ramah lingkungan memberikan banyak manfaat bagi kehidupan, di antaranya:</p>
+    <ul>
+      <li>Mengurangi pencemaran udara dan air.</li>
+      <li>Menjaga keseimbangan ekosistem.</li>
+      <li>Mendorong efisiensi energi.</li>
+      <li>Mewujudkan pembangunan berkelanjutan.</li>
+    </ul>
+    <img src="img/green.jpg" alt="Lingkungan hijau dengan energi bersih">
+  </section>
+
+  <section id="penutup">
+    <h2>Penutup</h2>
+    <p>Melalui penerapan Green Tech, kita belajar bahwa teknologi tidak hanya untuk memudahkan kehidupan, tetapi juga harus menjaga kelestarian bumi. Mari bersama-sama menerapkan teknologi hijau demi masa depan yang bersih dan berkelanjutan.</p>
+    <p style="text-align:center; font-weight:bold; margin-top:10px;">✨ Teknologi Hijau, Bumi Lestari ✨</p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Proyek Green Tech Sekolah</p>
+  </footer>
+</body>
+</html>
